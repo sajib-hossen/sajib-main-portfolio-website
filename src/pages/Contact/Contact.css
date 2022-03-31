@@ -1,0 +1,29 @@
+.contactheading {
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.contactInfo {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+}
+
+.form input,
+textarea {
+    border: none;
+    border-bottom: 1px solid;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.form {
+    margin-top: 100px;
+}
+
+.button {
+    background-color: #FF725E;
+    color: white;
+    border-radius: 10px;
+}

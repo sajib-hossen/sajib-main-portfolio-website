@@ -53,7 +53,7 @@ const Banner = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/sajib-hossen"
+                  href="https://www.linkedin.com/in/sajib-hossen/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -62,7 +62,7 @@ const Banner = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/sajib-hossen"
+                  href="https://www.instagram.com/sajibhossensa90/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -71,7 +71,7 @@ const Banner = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/sajib-hossen"
+                  href="https://www.facebook.com/profile.php?id=100018329389359"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -80,7 +80,7 @@ const Banner = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/sajib-hossen"
+                  href="https://www.youtube.com/"
                   target="_blank"
                   rel="noreferrer"
                 >

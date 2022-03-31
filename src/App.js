@@ -1,10 +1,9 @@
 import Home from "./pages/Home/Home/Home";
 import "./App.css";
-import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
-import Navigation from "./Shared/Navigation/Navigation";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import About from "./pages/About/About";
-import Services from "./Services/Services";
 import Skills from "./pages/Skills/Skills";
+import Services from "./pages/Services/Services";
 
 function App() {
   return (

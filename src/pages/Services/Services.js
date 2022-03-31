@@ -1,12 +1,11 @@
 import React from "react";
-
 import "./Services.css";
-import psd from "../images/photoshop.png";
-import web from "../images/web.png";
-import respon from "../images/responsive (1).png";
-import design from "../images/web-design.png";
-import wordpress from "../images/wordpress.png";
-import Service from "../pages/Service/Service";
+import psd from "../../images/photoshop.png";
+import web from "../../images/web.png";
+import respon from "../../images/responsive (1).png";
+import design from "../../images/web-design.png";
+import wordpress from "../../images/wordpress.png";
+import Service from "../Service/Service";
 
 const myService = [
   {
@@ -48,8 +47,8 @@ const myService = [
 
 const Services = () => {
   return (
-    <div className="container">
-      <h1 className="text-center mt-5">My Services</h1>
+    <div className="container text-center">
+      <h1 className="mt-5">My Services</h1>
       <div className="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-4 mx-auto">
         {myService.map((service) => (
           <Service key={service.no} service={service}></Service>
