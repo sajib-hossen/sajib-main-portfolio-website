@@ -48,7 +48,7 @@ const myService = [
 
 const Services = () => {
   return (
-    <>
+    <div className="my-5">
       <div className="services">
         <h1>My Services</h1>
         <Container>
@@ -56,16 +56,10 @@ const Services = () => {
             {myService.map((service) => (
               <Service key={service.no} service={service}></Service>
             ))}
-            {/* 
-            <Service></Service>
-            <Service></Service>
-            <Service></Service>
-            <Service></Service>
-            <Service></Service> */}
           </Row>
         </Container>
       </div>
-    </>
+    </div>
   );
 };
 

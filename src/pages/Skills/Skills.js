@@ -4,8 +4,8 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <>
-      <div className="skills">
+    <div>
+      <div className="skills my-5">
         <Container>
           <div className="skills-text">
             <h1>I am expert on</h1>
@@ -204,7 +204,7 @@ const Skills = () => {
           </Row>
         </Container>
       </div>
-    </>
+    </div>
   );
 };
 

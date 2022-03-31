@@ -1,7 +1,9 @@
 .skills {
     height: 100vh;
     display: flex;
-    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 
 }
 
