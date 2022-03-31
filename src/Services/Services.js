@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
-import Service from "../pages/Service/Service";
+
 import "./Services.css";
 import psd from "../images/photoshop.png";
 import web from "../images/web.png";
 import respon from "../images/responsive (1).png";
 import design from "../images/web-design.png";
 import wordpress from "../images/wordpress.png";
+import Service from "../pages/Service/Service";
 
 const myService = [
   {
@@ -48,16 +48,12 @@ const myService = [
 
 const Services = () => {
   return (
-    <div className="my-5">
-      <div className="services">
-        <h1>My Services</h1>
-        <Container>
-          <Row className="row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
-            {myService.map((service) => (
-              <Service key={service.no} service={service}></Service>
-            ))}
-          </Row>
-        </Container>
+    <div className="container">
+      <h1 className="text-center mt-5">My Services</h1>
+      <div className="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-4 mx-auto">
+        {myService.map((service) => (
+          <Service key={service.no} service={service}></Service>
+        ))}
       </div>
     </div>
   );
