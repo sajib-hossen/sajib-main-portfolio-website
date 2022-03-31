@@ -1,0 +1,39 @@
+.skills {
+    height: 100vh;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.skills-text {
+    text-align: center;
+}
+
+.skills-text h1 {
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.skills-text .hr {
+    width: 20%;
+    margin: 0 auto;
+    border: 3px solid rgb(223, 111, 7);
+    border-radius: 10px;
+
+}
+
+.skills-text p {
+    font-size: 18px;
+    margin: 8px 0;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.progressSingle {
+    padding: 20px;
+}
+
+.progressSingle h3 {
+    font-size: 25px;
+    font-family: 'Lora', serif;
+}

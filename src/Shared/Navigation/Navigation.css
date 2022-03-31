@@ -5,5 +5,14 @@
 .navbarContainer {
     position: fixed;
     top: 0;
+    z-index: -999;
 
+}
+
+.nav-btn {
+    padding: 8px 30px;
+    border-radius: 10px;
+    background-color: #a65248;
+    color: white;
+    border: 1px solid black;
 }
