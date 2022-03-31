@@ -8,6 +8,7 @@ import instagram from "../../../images/instagram.png";
 import facebook from "../../../images/facebook.png";
 import youtube from "../../../images/youtube.png";
 import Navigation from "../../../Shared/Navigation/Navigation";
+import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
@@ -21,7 +22,29 @@ const Banner = () => {
                 <p>Welcome to my world</p>
                 <p>Hello</p>
                 <h1>I'm Sajib Hossen</h1>
-                <h2>I am a Javacript web-developer</h2>
+
+                <h2>
+                  I am a{" "}
+                  <span style={{ color: "red", fontWeight: "bold" }}>
+                    {/* Style will be inherited from the parent element */}
+                    <Typewriter
+                      words={[
+                        "React Developer",
+                        "Javascript developer",
+                        "Front  Developer",
+                        "Full Stack Developer",
+                        "MERN Stack Developer",
+                        "Wordpress Developer",
+                      ]}
+                      loop={5}
+                      cursor
+                      cursorStyle="❤"
+                      typeSpeed={70}
+                      deleteSpeed={50}
+                      delaySpeed={1000}
+                    />
+                  </span>
+                </h2>
               </div>
               <div className="banner-icon">
                 <li>
@@ -89,3 +112,9 @@ const Banner = () => {
 };
 
 export default Banner;
+
+// style={{
+//   paddingTop: "5rem",
+//   margin: "auto 0",
+//   fontWeight: "normal",
+// }}
