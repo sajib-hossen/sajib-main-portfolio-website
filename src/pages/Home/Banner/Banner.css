@@ -52,6 +52,7 @@
 
 .banner-icon li a {
     margin-right: 15px;
+    text-decoration: none;
 }
 
 .banner-button {
@@ -59,6 +60,11 @@
     margin: 20px 0;
 
 
+}
+
+.banner-button>a {
+    text-decoration: none;
+    list-style: none;
 }
 
 .banner-button>button {

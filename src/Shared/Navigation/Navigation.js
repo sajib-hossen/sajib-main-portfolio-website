@@ -8,8 +8,8 @@ const Navigation = () => {
     <>
       <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
         <>
-          <Navbar.Brand as={Link} to="/">
-            Sajib_Hossen
+          <Navbar.Brand className="logo" as={Link} to="/">
+            <h1>Sajib_Hossen</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

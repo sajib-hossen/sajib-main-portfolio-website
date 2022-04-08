@@ -9,10 +9,21 @@
 
 }
 
+.logo h1 {
+    font-size: 30px !important;
+    color: black;
+}
+
 .nav-btn {
     padding: 6px 15px;
     border-radius: 10px;
     background-color: #a65248;
     color: white;
     border: 1px solid rgb(238, 224, 224);
+}
+
+.navItem a {
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
 }

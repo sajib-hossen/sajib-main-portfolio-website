@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../../images/man.png";
+import me from "../../../images/linkdin-image.png";
 import "./Banner.css";
 import git from "../../../images/github.png";
 import linkdin from "../../../images/linkedin.png";
@@ -9,6 +9,7 @@ import youtube from "../../../images/youtube.png";
 import Navigation from "../../../Shared/Navigation/Navigation";
 import { Typewriter } from "react-simple-typewriter";
 import AnimatiedShap from "../../AnimatiedShap/AnimatiedShap";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -40,7 +41,7 @@ const Banner = () => {
               />
             </span>
           </h2>
-          <div className="row">
+          <div className="row my-3">
             <div className="col-sm-12 col-md-6 d-flex bannerIcon">
               <li>
                 <a
@@ -91,8 +92,25 @@ const Banner = () => {
           </div>
 
           <div className="banner-button">
-            <button>Hire Me</button>
-            <button>Download CV</button>
+            <button>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/contact"
+              >
+                Hire Me
+              </Link>
+            </button>
+            <button>
+              <a
+                style={{ textDecoration: "none", color: "white" }}
+                href="https://drive.google.com/file/d/1F5jR_yHLLxxU4GrMgnNIVVbsaRxnOTtA/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Download Cv
+              </a>{" "}
+            </button>
           </div>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6 banner-image">
